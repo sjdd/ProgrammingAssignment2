@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
     }
             
     ##calculate inverse
-    message("calculating cached inverse")
+    message("calculating inverse")
     matrix <- x$get()
     inverse <- solve(matrix, ...)
     x$setInverse(inverse)
